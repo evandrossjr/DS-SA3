@@ -1,14 +1,15 @@
 package Atividade01;
 
-public class AtividadeUm {
+//Fatorial
+public class Atividade01 {
 
     private int numero;
     private int fatorial;
     private int i;
 
-    public AtividadeUm(){}
+    public Atividade01(){}
 
-    public AtividadeUm(int numero, int fatorial) {
+    public Atividade01( int numero, int fatorial) {
         this.numero = numero;
         this.fatorial = fatorial;
 

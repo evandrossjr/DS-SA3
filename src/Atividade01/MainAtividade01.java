@@ -2,7 +2,7 @@ package Atividade01;
 
 import java.util.Scanner;
 
-public class MainAtividadeUm {
+public class MainAtividade01 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -10,7 +10,7 @@ public class MainAtividadeUm {
         System.out.println(numero);
 
 
-        AtividadeUm at1 = new AtividadeUm();
+        Atividade01 at1 = new Atividade01();
         at1.calculoFatorial(numero);
 
     }
