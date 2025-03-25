@@ -15,7 +15,7 @@ public class PessoaJuridica extends Funcionario{
 
     @Override
     public void imprimeDados() {
-        System.out.println("Nome Fantasia:" + nome + " CNPJ: " + cnpj + " Data de Crição: " + dataCriacao + " Salário: " + salario);
+        System.out.println("Nome Fantasia: " + nome + " CNPJ: " + cnpj + " Data de Crição: " + dataCriacao + " Salário: R$ " + salario);
 
     }
 }

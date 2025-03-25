@@ -16,6 +16,6 @@ public class PessoaFisica extends Funcionario{
 
     @Override
     public void imprimeDados() {
-        System.out.println("Nome:" + nome + " CPF: " + cpf + " Data de Nascimento: " + dataNascimento + " Salário: " + salario);
+        System.out.println("Nome: " + nome + " CPF: " + cpf + " Data de Nascimento: " + dataNascimento + " Salário: R$ " + salario);
     }
 }
