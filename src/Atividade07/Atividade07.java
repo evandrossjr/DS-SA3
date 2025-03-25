@@ -3,7 +3,7 @@ package Atividade07;
 import java.util.Scanner;
 //Lingua do P
 public class Atividade07 {
-    
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
