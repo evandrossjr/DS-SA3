@@ -14,7 +14,7 @@ public class Funcionario extends Pessoa {
 
     @Override
     public String imprimirDados() {
-        return super.imprimirDados() + "salario=" + getSalario();
+        return super.imprimirDados() + ", salario: " + getSalario();
     }
 
     public double getSalario() {

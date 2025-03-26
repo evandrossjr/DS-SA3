@@ -9,6 +9,8 @@ public class Main10 {
         func01.imprimirDados();
         func01.toString();
 
+        System.out.println(func01.imprimirDados());
+
         System.out.println("atividade10");
 
 

@@ -14,7 +14,7 @@ public class Atividade02 {
             if (n == 0) break;
 
             int[] participantes = new int[n]; //criando um array com os participantes
-            for (int i = 0; i < n; i++) { // o laço for é de acordo com o numeto de participantes (n)
+            for (int i = 0; i < participantes.length; i++) { // o laço for é de acordo com o numeto de participantes (n)
                 participantes[i] = scanner.nextInt();
             }
 
@@ -33,7 +33,7 @@ public class Atividade02 {
                 return participantes[i];
             }
         }
-        return -1; // Apenas para segurança, mas sempre haverá um ganhador
+        throw new IllegalStateException("Nenhum ganhador encontrado.");
     }
 }
 
